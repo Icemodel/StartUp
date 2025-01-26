@@ -20,9 +20,6 @@ const service = () => {
               Artificial Generated Floor Plan
             </h3>
             <p>ออกแบบแปลนบ้านของคุณด้วย AI</p>
-            <button className="my-5  px-6 py-3 bg-gray-800 text-white font-semibold rounded-lg">
-              เรียนรู้เพิ่มเติม
-            </button>
           </div>
           <div className="text-white justify-center place-items-center bg-custom3">
             <Image
@@ -36,9 +33,6 @@ const service = () => {
               Augmented Reality Interior Simulation
             </h3>
             <p>ทดลองวางเฟอร์นิเจอร์และของตกแต่งภายในบ้านของคุณ</p>
-            <button className="my-5  px-6 py-3 bg-gray-800 text-white font-semibold rounded-lg">
-              เรียนรู้เพิ่มเติม
-            </button>
           </div>
           <div className="text-white justify-center place-items-center bg-custom4">
             <Image
@@ -51,12 +45,14 @@ const service = () => {
             <h3 className="text-xl font-bold mb-2">
               Consultant Service And Interior Designing
             </h3>
-            <p>บริการให้คำปรึกษาและออกแบบภายใน ตามงบประมาณที่คุณกำหนด</p>
-            <button className="my-5  px-6 py-3 bg-gray-800 text-white font-semibold rounded-lg">
-              เรียนรู้เพิ่มเติม
-            </button>
+            <p className="mb-8">
+              บริการให้คำปรึกษาและออกแบบภายใน ตามงบประมาณที่คุณกำหนด
+            </p>
           </div>
         </div>
+        <button className="my-5 px-6 py-3 bg-custom1 text-white font-semibold rounded-lg">
+          เรียนรู้เพิ่มเติม
+        </button>
       </div>
     </section>
   );

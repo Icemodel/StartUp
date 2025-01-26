@@ -11,7 +11,7 @@ const service = () => {
 
       {/* Hero Section */}
       <div className="bg-cover bg-center h-screen text-center text-white bg-[url(/img/ServicePicture.jpg)]">
-        <h1 className="text-4xl md:text-8xl font-bold italic flex pt-55 pl-18">
+        <h1 className="text-2xl md:text-7xl font-bold italic pt-55 pl-18 absolute hidden md:block">
           Services
         </h1>
       </div>
@@ -35,38 +35,40 @@ const service = () => {
       </div>
 
       {/* Services Section */}
-      <div className="grid grid-cols-2 grid-rows-2 gap-4 bg-custom1 w-full h-75% p-10">
-        {/* <Image
-          src="/img/floorPlan.jpg"
-          alt="floorPlan"
-          className="w-full h-full"s
-          width={500}
-          height={500}
-        /> */}
-        <div className="bg-cover bg-center h-full text-center text-white bg-[url(img/floorPlan.jpg]">
-          AI Generate Floor Plan
+      <div className="grid md:grid-cols-2 grid-cols-1 grid-rows-2 gap-4 bg-custom1 p-10">
+        <div className="bg-cover bg-center h-screen w-full bg-[url(/img/floorPlan.jpg)] ">
+          <div className="text-start text-custom1 text-8xl font-bold pl-10 pt-10">
+            AI Generate <br />
+            Floor Plan
+          </div>
         </div>
-        <Image
-          src="/img/VR.png"
-          alt="VR"
-          className="w-full h-full"
-          width={500}
-          height={500}
-        />
-        <Image
-          src="/img/consult.png"
-          alt="consult"
-          className="w-full h-full"
-          width={500}
-          height={500}
-        />
-        <Image
-          src="/img/augmentedReality.png"
-          alt="AR"
-          className="w-full h-full"
-          width={500}
-          height={500}
-        />
+        <div className="bg-cover bg-center h-screen w-full bg-[url(/img/VR.png)] ">
+          <div className="text-start text-white text-9xl font-bold pl-10 pt-10">
+            VR
+          </div>
+        </div>
+        <div className="bg-cover bg-center h-screen w-full bg-[url(/img/consult.png)] ">
+          <div className="text-start text-custom1 text-8xl font-bold pl-10 pt-10">
+            Consult
+          </div>
+        </div>
+        <div className="bg-cover bg-center h-screen w-full bg-[url(/img/augmentedReality.png)] ">
+          <div className="text-start text-white text-9xl font-bold pl-10 pt-10">
+            AR
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-custom1 text-white">
+        <div className="container mx-auto px-6 pt-10">
+          <div className="text-3xl font-medium mb-4">GET IN TOUCH</div>
+          <div>Email Address :Hometech@gmail.com</div>
+          <div>Phone Number : +66 97 832 5547</div>
+          <div>Location : 101/62 Donmuang Donmuang Bangkok 10210</div>
+        </div>
+        <div className="container flex justify-end mx-auto py-2 px-6">
+          <div>©Home Tech</div>
+        </div>
       </div>
       <Footer />
     </div>
