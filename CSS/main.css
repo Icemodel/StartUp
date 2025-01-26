@@ -138,6 +138,7 @@ a {
 
 .services p {
   margin-bottom: 2rem;
+  color: #333;
 }
 
 .services img {
@@ -172,37 +173,37 @@ a {
 
 .card2 {
   flex: 1 1 calc(33.33% - 1rem);
-  background-color: #333;
+  background-color: #A9A9A9;
   padding: 1.5rem;
-  border: 1px solid #333;
+  border: 1px solid #A9A9A9;
   text-align: center;
   color: #fff;
 }
 
 .card3 {
   flex: 1 1 calc(33.33% - 1rem);
-  background-color: #333;
+  background-color: #818C78;
   padding: 1.5rem;
-  border: 1px solid #333;
+  border: 1px solid #818C78;
   text-align: center;
   color: #fff;
 }
 
 .card1 h3 {
   margin-top: 1rem;
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
 .card2 h3 {
   margin-top: 1rem;
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
 .card3 h3 {
   margin-top: 1rem;
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
