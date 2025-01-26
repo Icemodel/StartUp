@@ -1,36 +1,39 @@
 import React from "react";
+import Link from "next/link";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const navbar = () => {
   return (
-    <nav className="flex justify-between items-center p-4 bg-gray-900 text-white">
+    <nav className="flex md:justify-around justify-between items-center p-4 bg-custom1 text-white">
       <div className="text-2xl font-bold">Tech Home</div>
-      <ul className="flex space-x-4">
+      <ul className="md:flex space-x-8 text-NavbarFontColor hidden">
         <li>
-          <a href="main.html" className="font-semibold">
+          <Link href="/" className="font-semibold">
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="aboutUs.html" className="font-semibold">
+          <Link href="/about" className="font-semibold">
             About Us
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#services" className="font-semibold">
+          <Link href="/service" className="font-semibold">
             Services
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#projects" className="font-semibold">
+          <Link href="/project" className="font-semibold">
             Projects
-          </a>
-        </li>
-        <li>
-          <a href="#contact" className="font-semibold">
-            Contact Us
-          </a>
+          </Link>
         </li>
       </ul>
+      <button className="bg-custom2 text-custom1 px-4 py-2 rounded-lg hidden md:block ">
+        <Link href="/contact" className="font-semibold">
+          Contact Us
+        </Link>
+      </button>
+      <RxHamburgerMenu className="text-3xl text-custom2 md:hidden" />
     </nav>
   );
 };

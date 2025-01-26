@@ -1,7 +1,10 @@
-import styles from "./page.module.css";
+import React from "react";
+import Home from "@/app/home/page";
 
-export default function Home() {
+export default function main() {
   return (
-    
+    <div>
+      <Home />
+    </div>
   );
 }

@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+  --color-custom1: #323231;
+  --color-custom2: #cbc5b1;
+  --color-custom3: #888989;
+  --color-custom4: #646b5f;
+  --color-NavbarFontColor: #d2cfc2;
+}
