@@ -125,7 +125,7 @@ a {
 
 /* Services Section */
 .services {
-  padding: 4rem 2rem;
+  padding: 4rem 0rem;
   text-align: center;
   background-color: #E2D4B7;
   color: #333;
@@ -140,11 +140,16 @@ a {
   margin-bottom: 2rem;
 }
 
+.services img {
+  width: 300px;
+  height: 200px;
+  max-width: 75%;
+}
+
 .service-cards {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1rem;
+  flex-wrap: nowrap;
 }
 
 .card {
@@ -156,11 +161,46 @@ a {
   color: #fff;
 }
 
-.card img {
-  max-width: 100%;
+.card1 {
+  flex: 1 1 calc(33.33% - 1rem);
+  background-color: #333;
+  padding: 1.5rem;
+  border: 1px solid #333;
+  text-align: center;
+  color: #fff;
 }
 
-.card h3 {
+.card2 {
+  flex: 1 1 calc(33.33% - 1rem);
+  background-color: #333;
+  padding: 1.5rem;
+  border: 1px solid #333;
+  text-align: center;
+  color: #fff;
+}
+
+.card3 {
+  flex: 1 1 calc(33.33% - 1rem);
+  background-color: #333;
+  padding: 1.5rem;
+  border: 1px solid #333;
+  text-align: center;
+  color: #fff;
+}
+
+.card1 h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card2 h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card3 h3 {
   margin-top: 1rem;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
