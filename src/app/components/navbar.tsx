@@ -1,8 +1,11 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
 
-const navbar = () => {
+const Navbar = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <nav className="flex md:justify-around justify-between items-center p-4 bg-custom1 text-white">
       <div className="text-2xl font-bold">Tech Home</div>
@@ -33,9 +36,55 @@ const navbar = () => {
           Contact Us
         </Link>
       </button>
-      <RxHamburgerMenu className="text-3xl text-custom2 md:hidden" />
+      <button
+        onClick={() => {
+          setOpen(!open);
+        }}
+      >
+        <RxHamburgerMenu className="text-3xl text-custom2 md:hidden" />
+      </button>
+      {open && (
+        <ul className="absolute top-16 left-0 w-full bg-custom1 text-white flex flex-col items-center space-y-4 py-4 md:hidden">
+          <li>
+            <Link
+              href="/"
+              className="font-semibold"
+              onClick={() => setOpen(false)}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/about"
+              className="font-semibold"
+              onClick={() => setOpen(false)}
+            >
+              About Us
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/service"
+              className="font-semibold"
+              onClick={() => setOpen(false)}
+            >
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/project"
+              className="font-semibold"
+              onClick={() => setOpen(false)}
+            >
+              Projects
+            </Link>
+          </li>
+        </ul>
+      )}
     </nav>
   );
 };
 
-export default navbar;
+export default Navbar;
