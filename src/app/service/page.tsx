@@ -36,24 +36,24 @@ const service = () => {
 
       {/* Services Section */}
       <div className="grid md:grid-cols-2 grid-cols-1 grid-rows-2 gap-4 bg-custom1 p-10">
-        <div className="bg-cover bg-center h-screen w-full bg-[url(/img/floorPlan.jpg)]">
-          <div className="text-start text-custom1 text-8xl font-bold pl-10 pt-10">
+        <div className="bg-cover bg-center h-screen w-full bg-[url(/img/floorPlan.jpg)] ">
+          <div className="text-start text-custom1 text-6xl font-bold pl-10 pt-10">
             AI Generate <br />
             Floor Plan
           </div>
         </div>
         <div className="bg-cover bg-center h-screen w-full bg-[url(/img/VR.png)] ">
-          <div className="text-start text-white text-9xl font-bold pl-10 pt-10">
+          <div className="text-start text-white text-8xl font-bold pl-10 pt-10">
             VR
           </div>
         </div>
         <div className="bg-cover bg-center h-screen w-full bg-[url(/img/consult.png)] ">
-          <div className="text-start text-custom1 text-8xl font-bold pl-10 pt-10">
+          <div className="text-start text-custom1 text-7xl font-bold pl-10 pt-10">
             Consult
           </div>
         </div>
         <div className="bg-cover bg-center h-screen w-full bg-[url(/img/augmentedReality.png)] ">
-          <div className="text-start text-white text-9xl font-bold pl-10 pt-10">
+          <div className="text-start text-white text-8xl font-bold pl-10 pt-10">
             AR
           </div>
         </div>

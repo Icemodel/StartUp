@@ -38,7 +38,7 @@ const about = () => {
             <Image
               src="/img/goal.png"
               alt="Home Tech Vision"
-              className="w-full max-w-md ml-50 h-75"
+              className="w-full max-w-md mx-auto h-75"
               width={500}
               height={500}
             />
