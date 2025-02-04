@@ -23,7 +23,7 @@ const projects = () => {
             {serviceData.map((project, index) => (
               <div
                 key={index}
-                className="bg-custom1 rounded-lg shadow-md overflow-hidden transform transition-transform hover:scale-105"
+                className="bg-custom1 rounded-lg shadow-md overflow-hidden transform transition-transform hover:scale-105 m-2"
               >
                 <Image
                   src={project.img}

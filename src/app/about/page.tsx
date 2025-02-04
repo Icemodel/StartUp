@@ -11,10 +11,10 @@ const about = () => {
         className="bg-cover bg-center h-[730px] text-center text-white flex flex-col items-center justify-center"
         style={{ backgroundImage: "url('../img/aboutUsTop.jpg')" }}
       >
-        <h1 className="text-5xl font-bold mb-4">About Us</h1>
+        <h1 className="text-5xl md:text-8xl font-bold mb-4">About Us</h1>
       </div>
 
-      <section className="bg-[#E2D4B7] py-20">
+      <section className="bg-[#E2D4B7] py-8 md:py-16 ">
         <div className="container mx-auto px-4">
           <h3 className="text-3xl font-bold flex-initial mb-8">Tech Home</h3>
           <p className="text-lg leading-relaxed text-justify">
@@ -32,18 +32,18 @@ const about = () => {
       </section>
 
       {/* Goal Section */}
-      <section className="bg-gray-900 text-white py-12 flex-1 md:flex items-center">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row">
+      <section className="bg-gray-900 text-white py-12 flex-1 sm:flex items-center">
+        <div className="container mx-auto px-4 flex flex-col lg:flex-row">
           <div className="lg:w-1/2 px-8">
             <Image
               src="/img/goal.png"
               alt="Home Tech Vision"
-              className="w-full max-w-md mx-auto h-75"
+              className="w-full max-w-md mx-auto md:h-72 h-48"
               width={500}
               height={500}
             />
           </div>
-          <div className="lg:w-1/2 px-8 text-center lg:text-left pt-8">
+          <div className="lg:w-1/2 md:px-8 text-center lg:text-left pt-8">
             <h2 className="text-3xl font-bold mb-4">Our Goal</h2>
             <p className="text-lg leading-relaxed text-gray-300">
               เป้าหมายของเราคือ การสร้างบ้านที่ผสมผสานเทคโนโลยี

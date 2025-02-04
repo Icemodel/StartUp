@@ -10,16 +10,16 @@ const service = () => {
 
       {/* Hero Section */}
       <div className="bg-cover bg-center h-screen text-center text-white bg-[url(/img/servicesTop.jpg)]">
-        <h1 className="text-2xl md:text-7xl font-bold italic pt-55 pl-18 absolute hidden md:block">
+        <h1 className="text-4xl md:text-7xl font-bold italic pt-55 pl-22 md:pl-18 absolute ">
           Services
         </h1>
       </div>
       <div className="flex-1 items-center justify-center bg-custom2">
         <div className="container mx-auto px-6 py-10">
-          <h2 className="text-lg md:text-3xl font-bold text-center text-custom1 pb-5">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center text-custom1 md:pb-5">
             OUR SERVICES
           </h2>
-          <p className="text-base text-center text-wrap leading-7">
+          <p className="text-base text-center text-wrap sm:leading-7">
             ที่ Home Tech เราเป็นผู้บุกเบิกการออกแบบบ้านตามสั่ง <br />
             เราผสมผสานการตกแต่งภายในเข้ากับสถาปัตยกรรม
             <br />
@@ -36,7 +36,7 @@ const service = () => {
       {/* Services Section */}
       <div className="grid md:grid-cols-2 grid-cols-1 grid-rows-2 gap-4 bg-custom1 p-10">
         <div className="bg-cover bg-center h-screen w-full bg-[url(/img/floorPlan.jpg)] ">
-          <div className="text-start text-custom1 text-6xl font-bold pl-10 pt-10">
+          <div className="text-start text-custom1 sm:text-6xl text-4xl font-bold pl-10 pt-10">
             AI Generate <br />
             Floor Plan
           </div>
@@ -47,7 +47,7 @@ const service = () => {
           </div>
         </div>
         <div className="bg-cover bg-center h-screen w-full bg-[url(/img/consult.png)] ">
-          <div className="text-start text-custom1 text-7xl font-bold pl-10 pt-10">
+          <div className="text-start text-custom1 sm:text-7xl text-5xl font-bold pl-10 sm:pt-10 pt-6">
             Consult
           </div>
         </div>

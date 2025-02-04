@@ -12,33 +12,33 @@ const service = () => {
             <Image
               src="/img/floorPlan.jpg"
               alt="Artificial Generated Floor Plan"
-              className="rounded-lg mb-4 w-80 h-75 mt-10 "
+              className="rounded-lg mb-4 w-80 h-75 mt-10 object-fill"
               width={300}
               height={200}
             />
             <h3 className="text-xl font-bold mb-2">
               Artificial Generated Floor Plan
             </h3>
-            <p>ออกแบบแปลนบ้านของคุณด้วย AI</p>
+            <p className="mb-8">ออกแบบแปลนบ้านของคุณด้วย AI</p>
           </div>
           <div className="text-white justify-center place-items-center bg-custom3">
             <Image
               src="/img/augmentedReality.png"
               alt="Augmented Reality Interior Simulation"
-              className="rounded-lg mb-4 w-80 h-75 mt-10 "
+              className="rounded-lg mb-4 w-80 h-75 mt-10 object-fill"
               width={300}
               height={200}
             />
             <h3 className="text-xl font-bold mb-2">
               Augmented Reality Interior Simulation
             </h3>
-            <p>ทดลองวางเฟอร์นิเจอร์และของตกแต่งภายในบ้านของคุณ</p>
+            <p className="mb-8">ทดลองวางเฟอร์นิเจอร์และของตกแต่งภายในบ้านของคุณ</p>
           </div>
           <div className="text-white justify-center place-items-center bg-custom4">
             <Image
               src="/img/consult.png"
               alt="Consultant Service And Interior Designing"
-              className="rounded-lg mb-4 w-80 h-75 mt-10 "
+              className="rounded-lg mb-4 w-80 h-75 mt-10 object-fill"
               width={300}
               height={200}
             />
