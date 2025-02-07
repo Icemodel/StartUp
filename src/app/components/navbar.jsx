@@ -41,7 +41,7 @@ const Navbar = () => {
       </div>
       <button className="border-custom4 border-2 text-custom2 px-3 py-1 mr-2 rounded-lg md:hidden">
         <Link href="/ArModel" className="font-semibold">
-          Ar
+          AR
         </Link>
       </button>
       <button
