@@ -1,14 +1,10 @@
-import React from "react";
-import XrHitModelContainer from "./XrHitModelContainer";
+"use client";
+import XrHitModelContainer from "@/app/ArModel/XrHitModelContainer";
 
-const page = () => {
+export default function Page() {
   return (
-    <>
-      <div className="w-screen h-screen bg-custom1">
-        <XrHitModelContainer />
-      </div>
-    </>
+    <div className="w-screen h-screen bg-custom1">
+      <XrHitModelContainer />
+    </div>
   );
-};
-
-export default page;
+}

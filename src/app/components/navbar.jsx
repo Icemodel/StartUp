@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -32,13 +32,18 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+
         <button className="bg-custom2 text-custom1 px-4 py-2 rounded-lg hidden md:block ">
           <Link href="/contact" className="font-semibold">
             Contact Us
           </Link>
         </button>
       </div>
-
+      <button className="border-custom4 border-2 text-custom2 px-3 py-1 mr-2 rounded-lg md:hidden">
+        <Link href="/ArModel" className="font-semibold">
+          Ar
+        </Link>
+      </button>
       <button
         onClick={() => {
           setOpen(!open);
